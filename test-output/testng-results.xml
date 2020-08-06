@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16917" started-at="2020-08-03T17:07:29Z" finished-at="2020-08-03T17:07:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16917" started-at="2020-08-03T17:07:29Z" finished-at="2020-08-03T17:07:46Z">
+      <class name="com.selenium.test.factory.GoogleSearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.selenium.test.factory.GoogleSearchTest@51081592]" name="setupDriver" is-config="true" duration-ms="4769" started-at="2020-08-03T22:37:29Z" finished-at="2020-08-03T22:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.factory.GoogleSearchTest@51081592]" name="searchTest" duration-ms="8377" started-at="2020-08-03T22:37:34Z" data-provider="getData" finished-at="2020-08-03T22:37:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.selenium.test.factory.GoogleSearchTest@51081592]" name="quitDriver" is-config="true" duration-ms="3740" started-at="2020-08-03T22:37:42Z" finished-at="2020-08-03T22:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.selenium.test.factory.GoogleSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
